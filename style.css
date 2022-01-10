@@ -10,10 +10,9 @@
   margin-bottom:50px;
 }
 
-.main-part{
+main{
   display:flex;
   justify-content:center;
-
 }
 
 .main-visual{
@@ -73,7 +72,7 @@
 }
 
 .comment{
-  font-size:12px;
+  font-size:12.3px;
   margin-left:10px;
 }
 
@@ -81,4 +80,44 @@
   height:50px;
   background-color:#AAAAAA;
   margin-top:50px;
+}
+
+@media screen and (max-width:768px){
+  
+  main{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .main-visual{
+    width:90%;
+    margin:0px auto;
+  }
+
+  .main-visual2{
+    width:90%;
+    margin:20px auto 0;
+  }
+
+  .main-image{
+    width:auto;
+  }
+
+  .main-image2{
+    width:auto;
+  }
+
+  .main-image3{
+    width:auto;
+  }
+
+  .title{
+    margin-bottom:0px;
+  }
+  
+  .comment{
+    font-size:75%;
+    line-height:20px;
+  }
+
 }
